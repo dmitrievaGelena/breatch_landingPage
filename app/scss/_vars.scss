@@ -1,0 +1,13 @@
+$red: #e70909;
+$grey: #e4e4e4;
+$pink: #ffdada;
+
+@mixin f500 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+@mixin f700 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
