@@ -8,6 +8,9 @@ $(function () {
         prevArrow: ' <button class="slick-arrow prev-arrow"><img src="img/header/prev.png" alt=""></button>',
         nextArrow: ' <button class="slick-arrow next-arrow"><img src="img/header/next.png" alt=""></button>',
       });
+    $('.description__slider').slick({
+
+    });
       
 });
 
