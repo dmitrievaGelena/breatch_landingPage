@@ -1,5 +1,4 @@
     @import 'vars';
-    @import 'media';
     @import 'libs';
     @import 'fonts';
     @import 'global';
@@ -54,6 +53,9 @@
             }
         }
     }
+    .header__box-content{
+    display: flex;
+}
 
     .content__box {
         width: 1540px;
@@ -112,6 +114,10 @@
     .header__box-social {
         width: 410px;
         position: relative;
+        .share{
+            width: 40px;
+            display: none;
+        }
     }
 
     .social-link {
@@ -399,3 +405,5 @@
            align-items: center;
        }
    }
+
+@import 'media';
